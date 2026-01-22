@@ -1,10 +1,13 @@
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
+import { useDebounce } from "react-use";
 import Card from "./components/Card";
 import LoadingSpinner from "./components/LoadingSpinner";
 
 export default function App() {
   const [movieData, setMovieData] = useState([]);
   const [movieDisplayed, setMovieDisplayed] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
 
   async function loadMovies() {
     try {
@@ -30,12 +33,17 @@ export default function App() {
     loadMovies();
   }, []);
 
-  function filterResult(event) {
-    const searchText = event.currentTarget.value;
+  useDebounce(() => setDebouncedSearchTerm(searchTerm), 500, [searchTerm]);
+
+  useEffect(() => {
+    search(debouncedSearchTerm);
+  }, [debouncedSearchTerm]);
+
+  function search(text) {
     setMovieDisplayed(
-      searchText === "" ?
+      text === "" ?
       movieData :
-      Array.from(movieData).filter(data => data.title.toLowerCase().includes(searchText.toLowerCase()))
+      Array.from(movieData).filter(data => data.title.toLowerCase().includes(text))
     );
   }
 
@@ -51,7 +59,7 @@ export default function App() {
 
       <input id="search-bar"
         placeholder="🔍Search thousands of movies"
-        onChange={filterResult}
+        onChange={(event) => setSearchTerm(event.currentTarget.value.toLowerCase())}
       />
 
       <section id="all-movies">
