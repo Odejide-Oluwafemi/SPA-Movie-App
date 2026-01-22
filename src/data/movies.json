@@ -1,0 +1,186 @@
+{
+  "movies": [
+    {
+      "title": "Midnight Echoes",
+      "coverImage": "/public/assets/1.jpg",
+      "rating": 8.2,
+      "lang": "En",
+      "year": 2024
+    },
+    {
+      "title": "Crimson Harbor",
+      "coverImage": "/public/assets/2.jpg",
+      "rating": 9.0,
+      "lang": "En",
+      "year": 2023
+    },
+    {
+      "title": "The Quiet Orchard",
+      "coverImage": "/public/assets/3.jpg",
+      "rating": 6.5,
+      "lang": "Fr",
+      "year": 2021
+    },
+    {
+      "title": "Winds of Verano",
+      "coverImage": "/public/assets/4.jpg",
+      "rating": 7.3,
+      "lang": "Es",
+      "year": 2020
+    },
+    {
+      "title": "Last Signal",
+      "coverImage": "/public/assets/5.jpg",
+      "rating": 5.1,
+      "lang": "En",
+      "year": 2019
+    },
+    {
+      "title": "Monsoon Rhapsody",
+      "coverImage": "/public/assets/6.jpg",
+      "rating": 9.3,
+      "lang": "Hi",
+      "year": 2022
+    },
+    {
+      "title": "Northern Stories",
+      "coverImage": "/public/assets/7.jpg",
+      "rating": 7.9,
+      "lang": "En",
+      "year": 2018
+    },
+    {
+      "title": "Paper Lanterns",
+      "coverImage": "/public/assets/8.jpg",
+      "rating": 6.8,
+      "lang": "Ja",
+      "year": 2025
+    },
+    {
+      "title": "Silver Blade",
+      "coverImage": "/public/assets/9.jpg",
+      "rating": 7.6,
+      "lang": "Ko",
+      "year": 2017
+    },
+    {
+      "title": "Retrograde Love",
+      "coverImage": "/public/assets/10.jpg",
+      "rating": 4.2,
+      "lang": "En",
+      "year": 2005
+    },
+    {
+      "title": "Neon Atlas",
+      "coverImage": "/public/assets/11.jpg",
+      "rating": 9.6,
+      "lang": "En",
+      "year": 2024
+    },
+    {
+      "title": "Desert Letters",
+      "coverImage": "/public/assets/12.jpg",
+      "rating": 5.4,
+      "lang": "Es",
+      "year": 2016
+    },
+    {
+      "title": "Rue des Secrets",
+      "coverImage": "/public/assets/13.jpg",
+      "rating": 6.1,
+      "lang": "Fr",
+      "year": 2015
+    },
+    {
+      "title": "Harbor Lights",
+      "coverImage": "/public/assets/14.jpg",
+      "rating": 7.7,
+      "lang": "En",
+      "year": 2014
+    },
+    {
+      "title": "Palace of Mirrors",
+      "coverImage": "/public/assets/15.jpg",
+      "rating": 9.1,
+      "lang": "En",
+      "year": 2013
+    },
+    {
+      "title": "Clockwork Avenue",
+      "coverImage": "/public/assets/16.jpg",
+      "rating": 6.0,
+      "lang": "De",
+      "year": 2012
+    },
+    {
+      "title": "Forest Hymn",
+      "coverImage": "/public/assets/17.jpg",
+      "rating": 8.0,
+      "lang": "En",
+      "year": 2011
+    },
+    {
+      "title": "The Last Sundial",
+      "coverImage": "/public/assets/18.jpg",
+      "rating": 5.2,
+      "lang": "It",
+      "year": 2010
+    },
+    {
+      "title": "Echoes of Dawn",
+      "coverImage": "/public/assets/19.jpg",
+      "rating": 9.8,
+      "lang": "En",
+      "year": 2009
+    },
+    {
+      "title": "Paper Crowns",
+      "coverImage": "/public/assets/20.jpg",
+      "rating": 7.4,
+      "lang": "En",
+      "year": 2008
+    },
+    {
+      "title": "The Sixth Letter",
+      "coverImage": "/public/assets/21.jpg",
+      "rating": 6.3,
+      "lang": "En",
+      "year": 2007
+    },
+    {
+      "title": "Iron Winter",
+      "coverImage": "/public/assets/22.jpg",
+      "rating": 7.5,
+      "lang": "Ru",
+      "year": 2006
+    },
+    {
+      "title": "Starlit Passage",
+      "coverImage": "/public/assets/23.jpg",
+      "rating": 9.2,
+      "lang": "En",
+      "year": 2004
+    },
+    {
+      "title": "Hidden Atlas",
+      "coverImage": "/public/assets/24.jpg",
+      "rating": 5.0,
+      "lang": "En",
+      "year": 2003
+    },
+    {
+      "title": "Midday Fugue",
+      "coverImage": "/public/assets/25.jpg",
+      "rating": 3.8,
+      "lang": "En",
+      "year": 2002
+    },
+    {
+      "title": "Amber Horizon",
+      "coverImage": "/public/assets/26.jpg",
+      "rating": 8.4,
+      "lang": "En",
+      "year": 2001
+    }
+  ]
+}
